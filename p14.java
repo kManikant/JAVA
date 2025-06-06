@@ -20,7 +20,7 @@ public class p14 {
             int var=1;
             while(j<=star){
                 System.out.print(var +" ");
-                if(j<=star/2){  //vertical mirror
+                if(j<=star/2){  //vertical mirror 
                     var++;
                 }else{
                     var--;
