@@ -3,7 +3,12 @@ import java.util.Scanner;
 public class p10 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.println("enter only odd +ve integer");
         int n = sc.nextInt();
+        if(n<=0||n%2==0){
+            System.out.println("enter valid no.");
+            return;
+        }
         int row =1;
         int star =n/2+1; //due to vertical mirror
         int space=-1;
