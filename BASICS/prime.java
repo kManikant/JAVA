@@ -10,12 +10,18 @@ public class prime{
         while(i<n-1){
             if(n%i==0){
                 count++;
-            }i++;
-        }
-        if(count>=1){
-            System.out.println("not prime");
-        }else{
+                if(count==1){
+                    System.out.println(" not prime");
+                    return;
+                }
+                }i++;
+            }
             System.out.println("prime");
+            
         }
-    }
-}
+            
+        
+        }
+        
+    
+
