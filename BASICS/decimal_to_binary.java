@@ -1,6 +1,6 @@
 public class decimal_to_binary {
     public static void main(String[] args) {
-        int a=9;//base 10
+        int a=127;//base 10
         int sum=0;
         int mul=1;         
                                 
@@ -10,6 +10,12 @@ public class decimal_to_binary {
              mul = mul*10;                // mul =mul*2
              a=a/2;                      // a=a/10
         }System.out.println(sum);
+
+
+        int i =428;
+        byte b = (byte)(128);      //type caste
+        // b= (byte)i;
+        System.out.println(b);
     }
 }
  
