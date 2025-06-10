@@ -5,8 +5,9 @@ public class max {
     }
 
     public static int maximum(int[] arr){
-        int max= arr[0];
-        int i=1;
+        int max= Integer.MIN_VALUE;// -2^31
+        //Integer.MAX_VALUE 2^31-1
+        int i=0;
         while (i<arr.length) {
             if(arr[i]>max){
                 max=arr[i];
