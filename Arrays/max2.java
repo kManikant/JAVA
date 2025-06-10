@@ -15,6 +15,8 @@ public class max2 {
             }
 
 
+
+            
             i++;
             //max = Math.max(arr[i],max)
         }
