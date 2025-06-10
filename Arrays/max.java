@@ -1,6 +1,6 @@
 public class max {
     public static void main(String[] args) {
-        int [] arr ={22,33,4,5,60};
+        int [] arr ={22,33,4,5,60,678};
     System.out.println(maximum(arr));
     }
 
