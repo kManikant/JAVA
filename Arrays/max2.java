@@ -11,7 +11,9 @@ public class max2 {
         while (i<arr.length) {
             if(arr[i]>max){
                 max=arr[i];
-                      }i++;
+                          }
+            i++;
+            //max = Math.max(arr[i],max)
         }
       return max;
     }
