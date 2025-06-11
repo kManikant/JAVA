@@ -14,7 +14,7 @@ public class decimal_to_binary {
 
         int i =428;
         byte b = (byte)(128);      //type caste
-        // b= (byte)i;
+        b= (byte)i;
         System.out.println(b);
     }
 }
