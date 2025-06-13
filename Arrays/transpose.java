@@ -1,4 +1,4 @@
-public class transpose {
+public class transpose { 
     public static void main(String[] args) {
         int[][] arr={{21,34,52,60},
                     {23,12,54,66},
