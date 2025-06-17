@@ -25,5 +25,9 @@ public class basic {
         System.out.println(s1.substring(2));// from index 2 to all string
         System.out.println(s1.substring(0, 2));//from 0 to 1 g5 2nd index  excluded
         System.out.println(s1.substring(0, 3));//from 0 to 2 g5y 3rd index excluded
+
+        System.out.println(10+20+"mani");// first addition of integer then string adds
+        System.out.println(20+str+10);// string + any thing always results string
+        System.out.println(10+str+(20+30)); // bracket  will calculate first
     }
 }
