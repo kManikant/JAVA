@@ -1,12 +1,12 @@
 public class compare {
     public static void main(String[] args) {
-        String s="owwbe";
+        
         String s1=new String("wwbe");
         String s2=new String("wwe");
-        System.out.println(compare(s1,s2));
+        System.out.println(compare_lexi(s1,s2));
     }
             // comare in lixical/dictionary order 
-    public static int compare(String s1,String s2){
+    public static int compare_lexi(String s1,String s2){
         if (s1==s2) {  // for  string pool condition
             return 0; // 0 vlue dentoes s1 = s2 
         }
