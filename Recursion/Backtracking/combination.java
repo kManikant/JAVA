@@ -13,7 +13,7 @@ public class combination {
             System.out.println(ans);
             return;
         }
-        for (int i = 1; i < board.length; i++) {
+        for (int i = idx; i < board.length; i++) {
             if (board[i] == false) {
                 board[i] = true;
                 combinations(board, tq, qpsf + 1, ans + "b" + i + "q" + qpsf,i+1);
